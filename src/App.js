@@ -6,6 +6,11 @@ function App() {
   return (
     <div className="App">
 <Accordion/>
+<Accordion/>
+<Accordion/>
+<Accordion/>
+<Accordion/>
+
     </div>
   );
 }
