@@ -1,15 +1,15 @@
 import React from 'react'
 
-export default function Accordion() {
+export default function Accordion({title,active,setActive}) {
   return (
    <div className='accordion'>
 <div className='accordionHeading'>
     <div className='container'>
-        <p>Question</p>
-        <span>CLICK ME</span>
+        <p>{title}</p>
+        <span onClick={()=> setActive(title)}>CLICK ME</span>
     </div>
      </div>
-     <div className='accordionContent show'>
+     <div className={(active===title ? "show" : "")+ "accordion"}>
         <div className='container'>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis numquam sed vitae? Iusto, quo distinctio!</p>
         </div>
