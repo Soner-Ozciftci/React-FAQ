@@ -9,7 +9,7 @@ export default function Accordion({title,active,setActive}) {
         <span onClick={()=> setActive(title)}>CLICK ME</span>
     </div>
      </div>
-     <div className={(active===title ? "show" : "")+ "accordion"}>
+     <div className={(active===title ? "show" : "")+ "accordionContent"}>
         <div className='container'>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis numquam sed vitae? Iusto, quo distinctio!</p>
         </div>
