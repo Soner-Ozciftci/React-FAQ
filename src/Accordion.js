@@ -9,7 +9,7 @@ export default function Accordion() {
         <span>CLICK ME</span>
     </div>
      </div>
-     <div className='accordionContent'>
+     <div className='accordionContent show'>
         <div className='container'>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis numquam sed vitae? Iusto, quo distinctio!</p>
         </div>
